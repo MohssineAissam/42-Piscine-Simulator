@@ -129,10 +129,10 @@ Fork this repository and enable GitHub Pages to get your own hosted version!
 ## 🌟 Screenshots
 
 ### Main Interface
-![Main Interface]([Imgur](https://imgur.com/qQt1XcX.jpg))
+![Main Interface]((https://imgur.com/qQt1XcX.jpg))
 
 ### Exercise View
-![Main Interface](https://imgur.com/qQt1XcX.jpg)
+![Main Interface]((https://imgur.com/i24r2kQ.jpg))
 
 ## 🤝 Contributing
 
