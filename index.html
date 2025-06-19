@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>42 Piscine Exercise Simulator</title>
+
+</head>
+
+<body>
+    <div class="floating-particles" id="particles"></div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🏊‍♂️ 42 Piscine Simulator</h1>
+            <p class="subtitle">Master C Programming Through Progressive Challenges</p>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-value" id="currentDay">Day 0</div>
+                <div class="stat-label">Current Day</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="exercisesSolved">0</div>
+                <div class="stat-label">Exercises Solved</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="currentStreak">0</div>
+                <div class="stat-label">Current Streak</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="successRate">0%</div>
+                <div class="stat-label">Success Rate</div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="difficulty-selector">
+                <h3>Choose Your Starting Level</h3>
+                <div class="difficulty-buttons">
+                    <button class="difficulty-btn beginner active" data-level="beginner">
+                        🟢 Beginner (Days 0-4)
+                    </button>
+                    <button class="difficulty-btn intermediate" data-level="intermediate">
+                        🟡 Intermediate (Days 5-9)
+                    </button>
+                    <button class="difficulty-btn advanced" data-level="advanced">
+                        🔴 Advanced (Days 10-13)
+                    </button>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+
+            <div class="exercise-container" id="exerciseContainer">
+                <div class="exercise-header">
+                    <h2 class="exercise-title" id="exerciseTitle">Click "New Exercise" to Start</h2>
+                    <div class="exercise-meta">
+                        <span class="day-badge" id="dayBadge">Day 0</span>
+                        <span class="difficulty-badge easy" id="difficultyBadge">Ready</span>
+                    </div>
+                </div>
+
+                <div class="exercise-description" id="exerciseDescription">
+                    Welcome to the 42 Piscine Simulator! This tool will help you practice C programming concepts from
+                    basic shell scripting to advanced data structures. Each exercise mimics the real 42 Piscine
+                    experience with progressive difficulty.
+                    <br><br>
+                    <strong>How it works:</strong><br>
+                    • Choose your starting difficulty level<br>
+                    • Solve exercises that get progressively harder<br>
+                    • Get instant feedback on your solutions<br>
+                    • Track your progress through the simulated "days"<br>
+                    <br>
+                    Ready to dive in? Click "New Exercise" to start your journey!
+                </div>
+
+                <textarea class="code-input" id="codeInput" placeholder="// Your C code goes here...
+#include <stdio.h>
+
+int main(void)
+{
+    // Write your solution here
+    return (0);
+}"></textarea>
+
+                <div class="button-group">
+                    <button class="btn btn-primary" id="newExerciseBtn">
+                        🎯 New Exercise
+                    </button>
+                    <button class="btn btn-primary" id="submitBtn">
+                        ✅ Submit Solution
+                    </button>
+                    <button class="btn btn-secondary" id="hintBtn">
+                        💡 Get Hint
+                    </button>
+                    <button class="btn btn-secondary" id="skipBtn">
+                        ⏭️ Skip Exercise
+                    </button>
+                </div>
+
+                <div class="hint-section" id="hintSection">
+                    <h4>💡 Hint:</h4>
+                    <p id="hintText"></p>
+                </div>
+
+                <div class="result-container" id="resultContainer" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
