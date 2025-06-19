@@ -66,10 +66,10 @@ The 42 Piscine is an intensive 4-week C programming bootcamp that serves as the 
 ### Option 2: Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/42-piscine-simulator.git
+git clone https://github.com/MohssineAissam/42-Piscine-Simulator.git
 
 # Navigate to the project directory
-cd 42-piscine-simulator
+cd 42-Piscine-Simulator
 
 # Open with your preferred web server or directly in browser
 open index.html
@@ -129,10 +129,10 @@ Fork this repository and enable GitHub Pages to get your own hosted version!
 ## 🌟 Screenshots
 
 ### Main Interface
-![Main Interface]((https://imgur.com/qQt1XcX.jpg))
+![Main Interface](https://imgur.com/qQt1XcX.jpg)
 
 ### Exercise View
-![Main Interface]((https://imgur.com/i24r2kQ.jpg))
+![Main Interface](https://imgur.com/i24r2kQ.jpg)
 
 ## 🤝 Contributing
 
@@ -158,7 +158,7 @@ Contributions are welcome! Here's how you can help:
 
 Found a bug or have an idea for improvement? Please:
 
-1. Check existing [Issues](https://github.com/yourusername/42-piscine-simulator/issues)
+1. Check existing [Issues](https://github.com/MohssineAissam/42-piscine-simulator/issues)
 2. Create a new issue with detailed description
 3. Include steps to reproduce (for bugs)
 4. Add labels for easy categorization
@@ -200,11 +200,9 @@ Found a bug or have an idea for improvement? Please:
 
 ## 📞 Contact & Support
 
-- **Author**: [Your Name](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Discord**: your_discord_handle
-- **42 Intra**: your_intra_login
-
+- **Author**: [Aissam](https://github.com/MohssineAissam)
+- **Email**: aissammouhssine@gmail.com
+- **Discord**: aissam990
 ---
 
 ## 🎯 Final Words
@@ -221,7 +219,7 @@ Whether you're a complete beginner or looking to sharpen your C programming skil
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-[🐛 Report Bug](https://github.com/yourusername/42-piscine-simulator/issues) • [✨ Request Feature](https://github.com/yourusername/42-piscine-simulator/issues) • [💬 Discussions](https://github.com/yourusername/42-piscine-simulator/discussions)
+[🐛 Report Bug](https://github.com/MohssineAissam/42-Piscine-Simulator/issues) • [✨ Request Feature](https://github.com/MohssineAissam/42-Piscine-Simulator/issues) • [💬 Discussions](https://github.com/MohssineAissam/42-piscine-simulator/discussions)
 
 </div>
 
@@ -232,7 +230,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 Your Name
+Copyright (c) 2025 Aissam
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
