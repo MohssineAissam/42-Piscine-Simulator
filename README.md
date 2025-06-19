@@ -25,7 +25,7 @@ The **42 Piscine Simulator** is an interactive web application designed to help 
 
 ## 🚀 Live Demo
 
-👉 **[Try the Simulator Now!](https://your-demo-link.com)** 👈
+👉 **[Try the Simulator Now!](https://mohssineaissam.github.io/42-Piscine-Simulator/)** 👈
 
 ## 📖 What is the 42 Piscine?
 
